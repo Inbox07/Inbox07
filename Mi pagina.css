@@ -1,0 +1,117 @@
+
+@import url("https://fonts.googleapis.com/css2?family=fredoka+One&display=swap")
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background: black;
+}
+input{
+	background: aquamarine;
+	color: black;
+	font-family: Bauhaus 93;
+	cursor: pointer;
+
+}
+.span, class, buscar{
+	color: orangered;
+	background: grey;
+}
+
+div, align-items:right;{
+	text-align: left;
+	color: grey;
+	bottom: initial;
+	padding: 10px;
+	margin: 0px;
+}
+
+select, option {
+  color: black;
+  background: skyblue;
+  text-align: right;
+}
+
+.container span:hover {
+		filter: contrast(250%);
+	}
+
+	.container span:nth-child(1){
+		color: red;
+	}
+
+	.container span:nth-child(2){
+		color: red;
+	}
+
+	.container span:nth-child(3){
+		color: yellow;
+	}
+
+	.container span:nth-child(4){
+		color: blue;
+	}
+
+	.container span:nth-child(5){
+		color: blue;
+	}
+	option, class-seriesmenu{
+
+	}
+
+	.container span{
+		font-size:  35pt;
+        font-weight: bold;
+        position: center;
+        font-family: "Freedoka One";
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+        text-align: center;
+        margin: 15px;
+	}
+
+	.container span ::before{
+		content: var(--l);
+	    position: absolute;
+	    transform: scale(1.1);
+	    filter: blur(15px);
+	    text-align: center;
+	}
+
+	.container span::after{
+		content: var(--l);
+		position: absolute;
+		top: 80%;
+		left:  14px;
+		filter: blur(30px);
+		transform: rotateX(50deg);
+		text-align: center;
+
+	}
+	select, menu{
+		position: relative;
+		text-align: center;
+	}
+	aside {
+		background: grey;
+		color: black;
+		text-align: right;
+		padding: 12px;
+		margin: 10px;
+	}
+	footer{
+		color: grey;
+		background: aqua;
+		size:40px;
+	}
+	i{
+		font-size: 25px;
+		color:black;
+		font-family: Arial Black;
+	}
+	span class, item1 {
+    color: white;
+	}
